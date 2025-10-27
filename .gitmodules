@@ -1,0 +1,15 @@
+[submodule "scalyshop-v2-backend"]
+	path = scalyshop-v2-backend
+	url = https://github.com/Liafonx/scalyshop-v2-backend.git
+	branch = main
+
+[submodule "scalyshop-v2-frontend"]
+	path = scalyshop-v2-frontend
+	url = https://github.com/Liafonx/scalyshop-v2-frontend.git
+	branch = main
+
+[submodule "scalyshop-cluster-management"]
+	path = scalyshop-cluster-management
+	url = https://github.com/Liafonx/scalyshop-cluster-management.git
+	branch = main
+
