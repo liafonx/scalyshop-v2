@@ -2,7 +2,7 @@
 
 A distributed, cloud-native e-commerce application demonstrating modern microservices architecture, container orchestration, and Infrastructure-as-Code practices.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 ![Vue.js](https://img.shields.io/badge/Vue.js-3-4FC08D?logo=vue.js&logoColor=white)
@@ -32,10 +32,10 @@ A distributed, cloud-native e-commerce application demonstrating modern microser
 
 ---
 
-## 📐 Architecture
+## Architecture
 
 ```
-Internet → NGINX Ingress → Frontend (Vue.js SPA)
+Internet → NGINX Ingress → Frontend (Vue.js)
                          ↓
                          Backend (Express.js API)
                          ↓
@@ -46,7 +46,7 @@ Internet → NGINX Ingress → Frontend (Vue.js SPA)
 
 ---
 
-## 📦 Repository Structure
+## Repository Structure
 
 This project is organized as a **monorepo with Git submodules**:
 
@@ -66,7 +66,7 @@ scalyshop-v2/
 
 ```bash
 # Clone main repository with all submodules
-git clone --recursive https://github.com/YOUR_USERNAME/scalyshop-v2.git
+git clone --recursive https://github.com/Liafonx/scalyshop-v2.git
 
 # Or if already cloned, initialize submodules
 git submodule update --init --recursive
@@ -74,8 +74,8 @@ git submodule update --init --recursive
 
 ---
 
-### 1. [Backend Service](./scalyshop-v2-backend) 🔧
-**Repository**: [scalyshop-v2-backend](https://github.com/YOUR_USERNAME/scalyshop-v2-backend)  
+### 1. Backend Service
+**Repository**: [scalyshop-v2-backend](https://github.com/Liafonx/scalyshop-v2-backend)  
 **Technologies**: Node.js, Express.js, Mongoose, Docker, Kubernetes, Helm  
 **Features**: 
 - RESTful API with CRUD operations
@@ -84,18 +84,18 @@ git submodule update --init --recursive
 - Health checks & readiness probes
 - CI/CD with GitHub Actions
 
-### 2. [Frontend Application](./scalyshop-v2-frontend) 🎨
-**Repository**: [scalyshop-v2-frontend](https://github.com/YOUR_USERNAME/scalyshop-v2-frontend)  
+### 2. Frontend Application
+**Repository**: [scalyshop-v2-frontend](https://github.com/Liafonx/scalyshop-v2-frontend)  
 **Technologies**: Vue.js 3, Vite, Bootstrap Vue, Axios, Docker  
 **Features**:
-- Single Page Application (SPA)
 - Optimized production builds
 - Containerized static asset delivery
 - Environment-based configuration
+- Client-side routing
 - Auto-scaling deployment
 
-### 3. [Cluster Management](./scalyshop-cluster-management) ⚙️
-**Repository**: [scalyshop-cluster-management](https://github.com/YOUR_USERNAME/scalyshop-cluster-management)  
+### 3. Cluster Management
+**Repository**: [scalyshop-cluster-management](https://github.com/Liafonx/scalyshop-cluster-management)  
 **Technologies**: Helmfile, Helm, Kubernetes, Prometheus, Grafana  
 **Features**:
 - Infrastructure-as-Code (IaC)
@@ -106,7 +106,7 @@ git submodule update --init --recursive
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 ### Distributed Systems
 - **Microservices Architecture**: Independently deployable services
@@ -130,11 +130,11 @@ git submodule update --init --recursive
 
 ---
 
-## 🏃 Quick Start
+## Quick Start
 
 ```bash
 # 1. Clone with submodules
-git clone --recursive https://github.com/YOUR_USERNAME/scalyshop-v2.git
+git clone --recursive https://github.com/Liafonx/scalyshop-v2.git
 cd scalyshop-v2
 
 # 2. Deploy infrastructure
@@ -154,7 +154,7 @@ helm upgrade --install scalyshop-frontend ./scalyshop-frontend \
 
 ---
 
-## 💡 Technical Highlights
+## Technical Highlights
 
 **Container Optimization**
 - Multi-stage Docker builds reducing image size by 60%
@@ -181,7 +181,7 @@ helm upgrade --install scalyshop-frontend ./scalyshop-frontend \
 
 ---
 
-## 📊 Performance
+## Performance
 
 - **Auto-scaling**: 2-10 pods based on load
 - **Response Time**: <100ms average API response
@@ -190,16 +190,14 @@ helm upgrade --install scalyshop-frontend ./scalyshop-frontend \
 
 ---
 
-## 🔗 Individual Repositories
+## Related Repositories
 
-Each component can be worked on independently:
-
-- **Backend**: [scalyshop-v2-backend](https://github.com/YOUR_USERNAME/scalyshop-v2-backend)
-- **Frontend**: [scalyshop-v2-frontend](https://github.com/YOUR_USERNAME/scalyshop-v2-frontend)
-- **Infrastructure**: [scalyshop-cluster-management](https://github.com/YOUR_USERNAME/scalyshop-cluster-management)
+- **Backend**: [scalyshop-v2-backend](https://github.com/Liafonx/scalyshop-v2-backend)
+- **Frontend**: [scalyshop-v2-frontend](https://github.com/Liafonx/scalyshop-v2-frontend)
+- **Infrastructure**: [scalyshop-cluster-management](https://github.com/Liafonx/scalyshop-cluster-management)
 
 ---
 
-## 📝 License
+## License
 
 Educational project demonstrating cloud-native architecture and DevOps practices.
