@@ -46,34 +46,6 @@ Internet → NGINX Ingress → Frontend (Vue.js)
 
 ---
 
-## Repository Structure
-
-This project is organized as a **monorepo with Git submodules**:
-
-```
-scalyshop-v2/
-├── scalyshop-v2-backend/          # Backend service (submodule)
-├── scalyshop-v2-frontend/         # Frontend application (submodule)
-├── scalyshop-cluster-management/  # Infrastructure IaC (submodule)
-├── Assignment1.md                 # Dockerization
-├── Assignment2.md                 # Kubernetes deployment
-├── Assignment3.md                 # Scaling & load balancing
-├── Assignment4.md                 # Monitoring
-└── Assignment5.md                 # Advanced topics
-```
-
-### Cloning with Submodules
-
-```bash
-# Clone main repository with all submodules
-git clone --recursive https://github.com/Liafonx/scalyshop-v2.git
-
-# Or if already cloned, initialize submodules
-git submodule update --init --recursive
-```
-
----
-
 ### 1. Backend Service
 **Repository**: [scalyshop-v2-backend](https://github.com/Liafonx/scalyshop-v2-backend)  
 **Technologies**: Node.js, Express.js, Mongoose, Docker, Kubernetes, Helm  
